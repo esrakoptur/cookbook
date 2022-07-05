@@ -5,33 +5,7 @@
     <meta charset="UTF-8">
     <title>Esra's Cookbook</title>
     <link rel="icon" href="images/jam_jar.png" type="png">
-    <style>
-        .template {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: #f15b29;
-        }
-
-        .template2 {
-            color: #474344;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-      
-        .image-div{
-            display: flex;
-            justify-content: center;
-        }
-
-        #insta_logo {
-            position: absolute;
-            top: 60px;
-            right: 60px;
-        }
-
-    </style>
-
-
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body style="background-color: #f5f5b8; height: 100%;">
@@ -75,6 +49,18 @@
       
         </a>
     </div>
+
+    <center>
+      <form action="/action_page.php">
+        <label for="diets">Choose your diet for special recipes:</label>
+         <select id="diets" name="diets">
+                <option value="regular">regular</option>
+                <option value="gluten-free">gluten-free</option>
+                <option value="vegan">vegan</option>
+         </select>
+        <input class="buttons" type="submit">
+      </form>
+    </center>
 
 </body>
 

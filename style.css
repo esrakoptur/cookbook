@@ -1,18 +1,43 @@
 
-.template {
+
+.template { 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f15b29;
 }
 
-.template2 {
+.template2 { 
     color: #474344;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-.image-div{
+.image-div{ 
     display: flex;
     justify-content: center;
+}
+
+
+
+.buttons{  /* for the buttons in pages */
+    background-color: #f15b29;
+    text-decoration: none;
+    border-color: #f15b29;
+    border-style: double;
+    color: #f5f5b8;
+}
+.buttons:hover {
+    background-color: black;
+    border-color: black
+}
+.mid { 
+    text-align: center;
+    flex: auto;
+}
+
+.back { 
+    background-color: #f5f5b8; height: 100%;
+
+
 }
 
 #insta_logo {
@@ -20,21 +45,3 @@
     top: 60px;
     right: 60px;
 }
-
-.buttons{ 
-    background-color: #f15b29;
-    text-decoration: none;
-    border-color: #f15b29;
-    border-style: double;
-    color: #f5f5b8;
-
-    }
-    
-    .mid {
-        text-align: center;
-        flex: auto;
-    }
-
-    .back {
-         background-color: #f5f5b8; height: 100%;
-    }
